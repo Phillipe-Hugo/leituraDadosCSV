@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gráfico a partir de Dados CSV</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+  <canvas id="myChart" width="400" height="200"></canvas>
+  <input type="file" accept=".csv" onchange="loadCSV(event)"/>
+  <script src="main.js"></script>
+</body>
+</html>
